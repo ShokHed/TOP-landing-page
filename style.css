@@ -82,6 +82,13 @@ a:hover {
     height: 35px;
     font-size: 12pt;
     font-weight: 550;
+    transition-duration: 400ms;
+}
+
+.content-one-button:hover {
+    background-color: whitesmoke;
+    color: #3882F6;
+    border: 2px solid #3882F6;
 }
 
 .content-two {
@@ -126,6 +133,9 @@ a:hover {
 .team-photo {
     width: 200px;
     height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 7px;
+
 }
 
 .team-text {
@@ -206,9 +216,15 @@ a:hover {
     border-radius: 7px;
     width: 110px;
     height: 35px;
-    font-size: 16;
-    font-weight: 500;
-    /* border-width: 5em; */
+    font-size: 12pt;
+    font-weight: 550;
+    transition-duration: 400ms;
+}
+
+.content-four-button:hover {
+    background-color: whitesmoke;
+    color: #3882F6;
+    /* border: 2px solid whitesmoke#3882F6; */
 }
 
 .footer {
